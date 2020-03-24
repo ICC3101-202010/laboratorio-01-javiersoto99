@@ -6,7 +6,13 @@ namespace laboratorio01
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var persona = new Persona("Bob" , "Kunga") ;
+            Console.WriteLine(persona.Lanzar());
+           
+
+
+              
+
         }
     }
 }
